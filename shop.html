@@ -1,0 +1,109 @@
+<html lang="en-gb">
+<head>
+<!-- requirements
+Form,
+Javascript,
+Gallery,
+Shopping Carts
+
+colour:
+000080 FFFFFF 000000 C0C0C0
+-->
+<title>Shop - VR_Y_HYPER</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/elements/buttons/buttonHover.css">
+<link rel="icon" type="image/png" href="assets/icons/favicon.png"
+
+	
+</head>
+<body>
+
+	<script src="assets/elements/header.js"></script>
+	<div id="belowHead"> <!--This gives the main document below the head an ancestor-->
+	<div id="sidebar">
+		<iframe id="ifSidebar" src="assets/elements/sidebar.html" width="100%" height="80%" frameBorder="0">
+		</iframe>
+	</div>
+	<div id="cart">
+	Cart:
+	<div id="cartList"></div>
+	<button onclick="location.href = 'checkout.html';">Checkout</button>
+	<button onclick="cartClear()">Reset</button>
+	</div>
+	<div id="main">
+		<div id="maincontent" height:="90%">
+
+		<h2>Shop</h2>
+		<table id="gallery">
+			<tr>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/mousepad.jpg" onclick="cartPush('mousepad')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/deskmat.jpg" onclick="cartPush('desk mat')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/notebook.jpg" onclick="cartPush('notebook')">
+				</td>
+			</tr>
+			<tr>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/bag.jpg" onclick="cartPush('bag')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/sticker.jpg" onclick="cartPush('sticker')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/phonecase.jpg" onclick="cartPush('phone case')">
+				</td>
+			</tr>
+			<tr>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/iphonewallet.jpg" onclick="cartPush('phone wallet')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/postcard.jpg" onclick="cartPush('postcard')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/shirt.jpg" onclick="cartPush('shirt')">
+				</td>
+			</tr>
+			<tr>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/pillow.jpg" onclick="cartPush('pillow')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/clock.jpg" onclick="cartPush('clock')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/bed.jpg" onclick="cartPush('bed')">
+				</td>
+			</tr>
+			<tr>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/skirt.jpg" onclick="cartPush('skirt')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/bath.jpg" onclick="cartPush('bath mat')">
+				</td>
+				<td id="gallery">
+					<img width=100% src="assets/images/shop/products/shower.jpg" onclick="cartPush('shower curtain')">
+				</td>
+			</tr>
+		</table>
+		</div>
+	</div>
+
+	</div>
+	<script src="assets/js/shop.js"></script>
+	<div id="footer">
+	<iframe src="assets/elements/footer.html" frameBorder="0" width="100%" height="100%">
+	&copy Xander F 2021 <img src="assets/glyphs/xseal3.png" height="14px" id="seal"></img>
+	</div>
+
+</body>
+
+</html>

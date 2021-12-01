@@ -1,0 +1,86 @@
+/* colour:*/
+/*000080 FFFFFF 000000 C0C0C0*/
+body{
+margin: 0px;
+background-color: #000080;
+color: #FFFFFF;
+position: relative;
+font-family: 'Poppins', sans-serif;
+}
+div#sidebar{
+margin: 0px;
+left: 0px
+position: sticky;
+width: 15%;
+overflow: hidden;
+border-bottom-right-radius: 2.5em;
+border-right: 2px solid white;
+border-bottom: 2px solid white;
+}
+body#sidebar{
+margin: 0px;
+color: 000080;
+background-color: C0C0C0;
+width: 100%;
+
+}
+img#sidebar{
+width: 150px;
+}
+div#main{
+position: absolute;
+top: 0px;
+right: 2.5%;
+width: 75%;
+}
+
+div#header{
+width: 100%;
+background: #000000;
+color: #ffffff;
+height: 100px;
+align-items: center; 
+justify-content: center; 
+text-align: center;
+border-bottom: 2px solid white;
+}
+
+div#footer{
+width: 100%;
+position: fixed;
+background-color: #FFFFFF;
+color: #000000;
+bottom: 0px;
+font-size: 14px;
+height: 20px;
+}
+div#belowHead{
+position: relative;
+}
+div#maincontent{
+height: 90%;
+}
+img#seal
+{
+vertical-align: middle
+}
+img#headerlogo
+{
+padding: 1em;
+width: 4em;
+}
+
+td#gallery {
+width: 30%;
+padding: 1em;
+}
+
+.indent {
+margin-left: 2em;
+}
+
+div#cart{
+position: sticky;
+left: 10px;
+top: 10px;
+}
