@@ -1,4 +1,4 @@
-var headerElement = ("<div id=\"header\"><table width=\"100%\"><td><a href=\"index.html\">\
+var headerElement = ("<div role=\"navigation\"id=\"header\"><table width=\"100%\"><td><a href=\"index.html\">\
 <img id=\"headerlogo\"src=\"./assets/images/logos/logo.svg\" alt=\"The Virtuos Logo.\">\
 </a></td><td><a href=\"index.html\"><button class=\"navButton\">About us</button></a></td>\
 </a></td><td><a href=\"hardware.html\"><button class=\"navButton\">Hardware</button></a></td>\
